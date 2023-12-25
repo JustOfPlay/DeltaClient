@@ -4,7 +4,6 @@
   "package": "net.delta.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "BlockColor",
     "IpMessage",
     "WindowTitle"
   ],

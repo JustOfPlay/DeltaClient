@@ -18,7 +18,7 @@ public class WindowTitle extends Screen {
 
 
     @Unique
-    private static final String CUSTOM_WINDOW_TITLE = "DeltaClient ∆     |    デルタクライアント    |  Version: 1.0.0";
+    private static final String CUSTOM_WINDOW_TITLE = "DeltaClient ∆     |    デルタクライアント    |  Version: a0.0.1"; //Alpha = a | Beta = b | Release = r
     @Unique
     private Timer timer;
 

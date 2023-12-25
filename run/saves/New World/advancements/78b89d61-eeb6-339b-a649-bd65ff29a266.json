@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-25 22:40:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2023-12-25 22:41:03 +0100",
+      "minecraft:snowy_plains": "2023-12-25 22:40:55 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2023-12-25 22:40:52 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3578
+}

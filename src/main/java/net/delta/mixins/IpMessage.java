@@ -20,15 +20,20 @@ public class IpMessage {
     private void onGameJoin(GameJoinS2CPacket packet, CallbackInfo info) {
         String serverIP = ((ClientPlayNetworkHandler) (Object) this).getConnection().getAddress().toString();
 
-        // Erstelle den Teil der Nachricht bis zum Trennzeichen "|"
+
         MutableText prefix = Text.literal("DeltaClient ∆ | ").formatted(Formatting.LIGHT_PURPLE);
 
-        // Erstelle den Teil der Nachricht nach dem Trennzeichen "|"
+
         MutableText suffix = Text.literal(" IP: " + serverIP).formatted(Formatting.GRAY);
 
-        // Verbinde die Teile der Nachricht mit einem Farbverlauf
+
+
+
         Text message = prefix.append(suffix.setStyle(Style.EMPTY.withColor(Formatting.LIGHT_PURPLE)
                 .withFormatting(Formatting.WHITE)));
+
+
+
 
         MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(message);
     }

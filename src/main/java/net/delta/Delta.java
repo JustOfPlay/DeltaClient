@@ -8,7 +8,7 @@ public class Delta implements ModInitializer {
     public void onInitialize() {
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
 
-        // Mixin-Klassen registrieren
+
         Mixins.addConfiguration("delta.mixins.json");
     }
 }
