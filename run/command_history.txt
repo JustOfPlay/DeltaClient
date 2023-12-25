@@ -1,0 +1,4 @@
+/tellraw @p [{"text":"D","color":"light_purple"},{"text":"e","color":"#ec50fe"},{"text":"l","color":"#db61fe"},{"text":"t","color":"#c973fe"},{"text":"a","color":"#b884fe"},{"text":"C","color":"#a795fe"},{"text":"l","color":"#95a7fe"},{"text":"i","color":"
+/give Player617 minecraft:command_block
+/say s
+/give Player535 minecraft:command_block

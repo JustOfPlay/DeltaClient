@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "delta",
+  "version": "1.0.0",
+  "name": "DeltaClient",
+  "description": "Delta Client is a Minecraft Client that will give you many features.",
+  "authors": ["JustOfPlay"],
+  "contact": {
+    "repo": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/delta/icon.png",
+  "environment": "*",
+  "textures": {
+    "resource_pack": {
+      "id": "6969",
+      "entry": "assets/delta/§dDeltaClient ∆.zip"
+    }
+  },
+
+  "entrypoints": {
+    "client": [
+      "net.delta.client.DeltaClient"
+    ],
+    "main": [
+      "net.delta.Delta"
+
+    ]
+  },
+  "mixins": [
+    "delta.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "fabric": "*",
+    "minecraft": "1.20.2"
+  }
+}
+
+
+
