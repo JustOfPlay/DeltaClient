@@ -2,3 +2,15 @@
 /give Player617 minecraft:command_block
 /say s
 /give Player535 minecraft:command_block
+/reload
+/reload *
+/reload
+/effect give Player803 minecraft:regeneration infinite 30 false
+/effect give Player803 minecraft:regeneration infinite 30 true
+/damage Player803 5
+/damage Player803 5 minecraft:magic
+/damage Player803 5t
+/damage Player803 5 minecraft:magic
+/damage Player803 5t
+/damage Player803 5 minecraft:magic
+/exit

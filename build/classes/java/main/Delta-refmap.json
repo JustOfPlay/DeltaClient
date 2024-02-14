@@ -5,6 +5,9 @@
     },
     "net/delta/mixins/WindowTitle": {
       "init": "Lnet/minecraft/class_442;method_25426()V"
+    },
+    "net/delta/mixins/damage": {
+      "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
     }
   },
   "data": {
@@ -14,6 +17,9 @@
       },
       "net/delta/mixins/WindowTitle": {
         "init": "Lnet/minecraft/class_442;method_25426()V"
+      },
+      "net/delta/mixins/damage": {
+        "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z"
       }
     }
   }
